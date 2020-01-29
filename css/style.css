@@ -1,0 +1,257 @@
+/*
+*** The Font for The Page
+*** font-family: 'Caveat', cursive;
+ */
+
+
+/*
+*** The Colors For The Page
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+
+
+/** Starting The Styling Of The Page Here **/
+
+
+/* Some Manual resets */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.classic-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    font-size: 2.5em;
+}
+
+
+/* End Of The Some Manual resets */
+
+
+/* Start Styling the Navbar section Here */
+
+.navbar ul li {
+    color: #EF233C;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.infos {
+    font-family: 'Caveat', cursive;
+    color: white;
+    background-color: #2B2D42;
+    padding: 50px;
+    position: relative;
+}
+
+.infos .pic {
+    width: 40%;
+}
+
+.infos .pic img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.infos .res {
+    width: 60%;
+}
+
+.infos .res h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.infos .res h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.infos .res p {
+    margin-top: 20px;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+.infos .res p a {
+    color: red;
+}
+
+.infos button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: #EF233C;
+    color: white;
+    border: none;
+    cursor: pointer
+}
+
+
+/* End Styling the Navbar section Here */
+
+
+/* Start Styling the Work-xp Section Here */
+
+.work-xp {
+    background-color: #EDF2F4;
+    padding: 30px;
+}
+
+.work-xp h2:nth-of-type(1) {
+    font-family: 'Caveat', cursive;
+}
+
+.work-xp .heads {
+    width: 25%;
+    margin-top: 50px;
+}
+
+.work-xp .hinfo {
+    width: 73%;
+    margin-top: 50px;
+    margin-left: 2%;
+}
+
+.work-xp .heads h3:nth-of-type(n+2) {
+    margin-top: 90px;
+}
+
+.work-xp .heads h3:nth-of-type(3) {
+    margin-top: 380px;
+}
+
+.work-xp .heads p {
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 5px;
+}
+
+.work-xp .hinfo p {
+    line-height: 1.5;
+}
+
+.work-xp .hinfo p:nth-of-type(n+3) {
+    margin-top: 60px;
+}
+
+.work-xp .hinfo p:nth-of-type(4) {
+    margin-top: 40px;
+}
+
+.work-xp .hinfo ul {
+    margin-top: 15px;
+}
+
+.work-xp .hinfo ul li {
+    margin-top: 10px;
+}
+
+.work-xp .hinfo a {
+    text-decoration: underline;
+    color: #EF233C;
+}
+
+
+/* End Styling the Work-xp Section Here */
+
+
+/* Start Styling The Education Section Here */
+
+.education {
+    background: url("../images/build-bg.jpg") top center fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+.education .con {
+    background-color: rgba(141, 153, 174, .6);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
+.education .con h2 {
+    font-family: 'Caveat', cursive;
+}
+
+.education .con h3 {
+    margin-top: 30px;
+}
+
+
+/* End Styling The Education Section Here */
+
+
+/* Start Styling The Social Section Here */
+
+.social {
+    padding: 30px;
+    background-color: #2B2D42;
+}
+
+.social h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 5em;
+    color: #EDF2F4;
+}
+
+.social ul li {
+    display: inline-block;
+    margin: 20px 30px;
+    color: #EF233C;
+    transition: all .5s ease-in-out;
+}
+
+.social ul li:hover {
+    transform: scale(1.5);
+}
+
+.social p {
+    color: #EDF2F4;
+    margin-top: 15px;
+}
+
+
+/* End Styling The Social Section Here */
